@@ -1,4 +1,5 @@
 import React from 'react';
+import MainMenuTop from './MainMenuTop';
 import SearchBar from './SearchBar';
 
 const MainMenu = () => {
@@ -7,6 +8,7 @@ const MainMenu = () => {
   return (
     <div className="mainMenu">
       <SearchBar />
+      <MainMenuTop degree="18" date="Monday" />
       {hello}
     </div>
   );
