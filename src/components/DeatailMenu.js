@@ -4,7 +4,7 @@ const DeatailMenu = () => {
   const menu = 'detail';
 
   return (
-    <div>
+    <div className="detailsMenu">
       {menu}
     </div>
   );

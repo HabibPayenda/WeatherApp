@@ -4,7 +4,7 @@ const MainMenu = () => {
   const hello = 'hello';
 
   return (
-    <div>
+    <div className="mainMenu">
       {hello}
     </div>
   );
