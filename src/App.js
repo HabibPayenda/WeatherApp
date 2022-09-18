@@ -1,9 +1,12 @@
 import './App.css';
+import MainMenu from './components/MainMenu';
+import DeatailMenu from './components/DeatailMenu';
 
 function App() {
   return (
     <div className="App">
-     <h1>hello world</h1>
+      <MainMenu />
+      <DeatailMenu />
     </div>
   );
 }
